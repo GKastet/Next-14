@@ -1,3 +1,5 @@
+import TextTest from "../TextTest/TextTest";
+
 export default function Footer(){
     return(
         <footer
@@ -7,6 +9,7 @@ export default function Footer(){
           }}
         >
           <p>Footer</p>
+          <TextTest />
         </footer>
     )
 }
